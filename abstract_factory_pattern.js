@@ -1,13 +1,9 @@
 //Below is my interpretation of the Abstract Factory Pattern in a functional context.
 //Two types of soccer balls - AddidasBall and NikeBall
 
-const NikeBall = function(name, size, sponsors) {
+const NikeBall = (name, size, sponsors) => {};
 
-}
-
-const AdidasBall = function(name, size, sponsors) {
-
-}
+const AdidasBall = (name, size, sponsors) => {};
 
 //Example use of pattern below...
 const generateFactory = (types) => {
